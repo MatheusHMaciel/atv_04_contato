@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Mania - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<!-- Seção do header do documento html -->
+<header>
+  <div class="row">
+    <div class="col-2">
+      <img class="img-logo" src="imagens/noimage.png" alt="Logotipo da Game Mania">
+    </div>
+    <div class="col-10">
+      <div id="menu-mobile">
+        <img src="imagens/menu-hamburg.svg" alt="menu mobile">
+      </div>
+      <nav id="nav-desktop">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="jogos.html">Jogos</a></li>
+          <li><a href="#">Hardware</a></li>
+          <li><a href="#">Celulares</a></li>
+          <li><a href="#">PC Gamer</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- Aqui iremos desenvolver o formulário do contato -->
+<!--
+    // Layout Desktop
+    https://www.figma.com/file/TBAyrRCKuvhCtel4nGNMpR/Game-Mania?node-id=227%3A2
+    //Layout Mobile
+    https://www.figma.com/file/TBAyrRCKuvhCtel4nGNMpR/Game-Mania?node-id=0%3A1
+  -->
+
+
+<section id="contato">
+  <div>
+    <h1>Contato </h1>
+    <p>Preencha os dados para receber um contato nosso</p>
+    <img src="imagens/contato.jpg" alt="imagem contato">
+  </div>
+
+
+  <div class="formulario">
+    <form action="contato.html" method="post">
+      <div>
+        <label for="nome" class="form-label">Nome:</label>
+        <input type="text" class="form-control" id="nome" name="nome_usuario">
+      </div>
+      <div>
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" class="form-control" id="email" name="email_usuario">
+      </div>
+      <div>
+        <label for="telefone" class="form-label">Telefone:</label>
+        <input type="telefone" class="form-control" id="telefone" name="telefone_usuario">
+      </div>
+      <div>
+        <label for="mensagem" class="form-label">Mensagem:</label>
+        <textarea id="mensagem" class="form-control" rows="5" name="texto_usuario"></textarea>
+      </div>
+    </form>
+  </div>
+
+
+</section>
+<!-- Seção do rodapé do documento html -->
+<footer>
+  <div id="img-rodape">
+    <img class="img-logo" src="imagens/noimage.png" alt="Logotipo da Game Mania">
+  </div>
+  <div class="emails">
+    <p>E-mail:</p>
+    <p>aaa@bbb.ccc.dd</p>
+  </div>
+  <div class="enderecos">
+    <p>Endereço:</p>
+    <p>Rua asasda asdasdads,111</p>
+    <p>Bauru - SP - CEP: 1111111</p>
+  </div>
+  <div class="telefones">
+    <p>Telefone:</p>
+    <p>(14) 1234566555</p>
+    <p>(14) 99999-9999</p>
+  </div>
+  <div id="midias-sociais" class="midias-sociais">
+    <a href="#"><img src="imagens/instagram.png" alt="Instagram da Game Mania"></a>
+    <a href="#"><img src="imagens/facebook.png" alt="Facebook da Game Mania"></a>
+    <a href="#"><img src="imagens/youtube.png" alt="YouTube da Game Mania"></a>
+  </div>
+  <nav id="menu-rodape">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="jogos.html">Jogos</a></li>
+      <li><a href="#">Hardware</a></li>
+      <li><a href="#">Celulares</a></li>
+      <li><a href="#">PC Gamer</a></li>
+      <li><a href="#">Contato</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </nav>
+</footer>
+<div id="menu-slide">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="jogos.html">Jogos</a></li>
+    <li><a href="#">Hardware</a></li>
+    <li><a href="#">Celulares</a></li>
+    <li><a href="#">PC Gamer</a></li>
+    <li><a href="contato.html">Contato</a></li>
+    <li><a href="#">Login</a></li>
+  </ul>
+</div>
+<!-- Ligação com os arquivos JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="javascript/meuJS.js"></script>
+</body>
+
+</html>
