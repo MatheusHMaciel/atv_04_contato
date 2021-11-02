@@ -168,21 +168,18 @@ footer {
 }
 #contato{
   display: flex;
-  
+  color: black;
+  font-weight: bold;
+  width: 100%
 }
 .formulario{
-  padding: 30px;
   background-color: silver;
+  padding: 20px;
+  border-radius: 20px;
   margin-top: 95px;
-  width: 600px;
-  height: 795px;
-  border-radius: 10px;
-  
-  box-sizing: border-box;
-
-
-
+  width: 45vw;
 }
+  
 
 
 /* Ajuste para responsividade */

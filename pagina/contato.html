@@ -54,21 +54,27 @@
   <div class="formulario">
     <form action="contato.html" method="post">
       <div>
-        <label for="nome" class="form-label">Nome:</label>
+        <label for="nome" class="form-label">Nome*:</label>
         <input type="text" class="form-control" id="nome" name="nome_usuario">
       </div>
       <div>
-        <label for="email" class="form-label">E-mail:</label>
+        <label for="email" class="form-label">E-mail*:</label>
         <input type="email" class="form-control" id="email" name="email_usuario">
       </div>
       <div>
-        <label for="telefone" class="form-label">Telefone:</label>
+        <label for="telefone" class="form-label">Telefone*:</label>
         <input type="telefone" class="form-control" id="telefone" name="telefone_usuario">
       </div>
       <div>
-        <label for="mensagem" class="form-label">Mensagem:</label>
+        <label for="mensagem" class="form-label">Mensagem*:</label>
         <textarea id="mensagem" class="form-control" rows="5" name="texto_usuario"></textarea>
       </div>
+      
+      <div>
+        <input type="button" class="btn btn-primary" 
+        value="Enviar" id="enviar" disabled>
+      </div>
+      
     </form>
   </div>
 
